@@ -2,7 +2,7 @@
 
 ![Alt Text](https://github.com/JingchunCheng/FAVOS/blob/master/framework.png) 
 
-Project webpage: 
+Project webpage: <br />
 Contact: Jingchun Cheng (chengjingchun14 at 163 dot com)
 
 ## Paper
