@@ -29,6 +29,8 @@ This is the authors' demo code described in the above paper. Please cite our pap
 `make all -j8` (paths are needed to change in the configuration file) <br />
 `make pycaffe` <br />
 
+## Tracker
+We use SiaFC tracker in "Fully-Convolutional Siamese Networks for Object Tracking" [here](https://github.com/bertinetto/siamese-fc)
 
 ## Download Our Segmentation Results on the DAVIS datasets
 * FAVOS on DAVIS2016 [here]()
