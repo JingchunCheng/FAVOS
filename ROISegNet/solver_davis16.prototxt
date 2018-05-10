@@ -1,0 +1,21 @@
+train_net: "ROISegNet_2016.prototxt"
+display: 20
+
+average_loss: 20
+lr_policy: "fixed"
+# lr for unnormalized softmax
+base_lr: 1e-5
+
+# high momentum
+momentum: 0.99
+
+clip_gradients: 20
+# no gradient accumulation
+
+iter_size: 1
+max_iter: 100000
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "../models/ROISegNet_2016"
+
+test_initialization: false
