@@ -1,6 +1,6 @@
 # Fast and Accurate Online Video Object Segmentation via Tracking Parts
 
-![Alt Text](https://github.com/JingchunCheng/FAVOS/framewwork.png) 
+![Alt Text](https://github.com/JingchunCheng/FAVOS/framework.png) 
 
 Project webpage: 
 Contact: Jingchun Cheng (chengjingchun14 at 163 dot com)
