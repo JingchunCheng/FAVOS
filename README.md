@@ -1,3 +1,8 @@
+# Working in Progress
+
+We are updating our code. Please do not clone this repo yet.
+
+
 # Fast and Accurate Online Video Object Segmentation via Tracking Parts
 
 ![Alt Text](https://github.com/JingchunCheng/FAVOS/blob/master/framework.png) 
