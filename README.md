@@ -10,7 +10,7 @@ Contact: Jingchun Cheng (chengjingchun14 at 163 dot com)
 Jingchun Cheng, Yi-Hsuan Tsai, Wei-Chih Hung, Shengjin Wang and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
 
-This is the authors' demo code described in the above paper. Please cite our paper if you find it useful for your research.
+This is the authors' demo (single-GPU-version) code described in the above paper. Please cite our paper if you find it useful for your research.
 
 ```
 @inproceedings{
