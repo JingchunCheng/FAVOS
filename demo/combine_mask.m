@@ -44,24 +44,8 @@ for k = 1:length(images)
 
    roi_seg_file = [part_dir, class_name,'/',im_name,'.mat'];
    load(roi_seg_file);
-
-   %roi_sim_file     = [sim_dir,'/',classes{i},'/',im_name,'_sim.mat'];
-   %roi_sim          = load(roi_sim_file);
-   %roi_sim.sim(roi_sim.sim>100) = 100;
-   %roi_sim.sim      = roi_sim.sim/max(max(roi_sim.sim)); 
-   %[res_sim, pos_sim]     = min(roi_sim.sim);
-   %res_sim          = 1 - res_sim;
-   %num_parts     = size(roi_sim.rois, 1);
-
-
-   %roi_pool_file = [part_dir, classes{i},'.mat'];
-   %roi_pool      = load(roi_pool_file);
    
    box_num  = size(mask,1);
-
-   %assert(num_parts == box_num, 'part num == box num');
-   %assert(length(roi_pool.scores) == size(roi_sim.sim, 1), 'len(part score) == len (feat pool)')
-
   
      for j = 1:box_num
          
