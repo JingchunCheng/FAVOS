@@ -41,7 +41,7 @@ Download trained [ROISegNet model](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROI
 Download [tracked parts](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in foler "siamese-fc-master/tracking/". <br />
 
 * Train your own ROISegNet. <br/>
-Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks) and save it in floder 'models' as 'init.caffemodel' <br/>
+Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks) and save it in floder "models" as "init.caffemodel" <br/>
 `cd ROISegNet`<br/>
 `python solve.py ../models/init.caffemodel solver_davis16.prototxt 0`<br/>
 
