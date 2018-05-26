@@ -34,10 +34,19 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 `make all -j8` (paths are needed to change in the configuration file) <br />
 `make pycaffe` <br />
 
-* Download pre-computed results. <br />
+* Download trained models and pre-computed results. <br />
 Download [segmentation results](https://www.dropbox.com/s/9zwob31bz91u75h/favos.tar?dl=0) and put them in folder "results". <br />
 Download trained [ROISegNet model](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in folder "models". <br />
 Download [tracker parts](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in foler "siamese-fc-master/tracking/". <br />
+
+* Train your own ROISegNet. <br/>
+`Download ResNet-101 model and save it in floder 'models' as 'init.caffemodel'` [ResNet-101](https://github.com/KaimingHe/deep-residual-networks)<br/>
+`cd ROISegNet`<br/>
+`run command: python solve.py ../models/init.caffemodel solver_davis16.prototxt 0`<br/>
+
+* Test our model. <br/>
+
+
 
 ## Tracker
 We use SiaFC tracker in "Fully-Convolutional Siamese Networks for Object Tracking" [here](https://github.com/bertinetto/siamese-fc)
