@@ -12,7 +12,5 @@ end
 
 [~,pos] = max(J_all);
 rate    = ratios{pos};
-disp(rate);
-
 
 end
