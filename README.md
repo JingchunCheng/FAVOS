@@ -42,10 +42,13 @@ Download [tracker parts](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_201
 * Train your own ROISegNet. <br/>
 Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks) and save it in floder 'models' as 'init.caffemodel' <br/>
 `cd ROISegNet`<br/>
-`run command: python solve.py ../models/init.caffemodel solver_davis16.prototxt 0`<br/>
+`python solve.py ../models/init.caffemodel solver_davis16.prototxt 0`<br/>
 
 * Test our model. <br/>
-
+We provide an example of testing script for our algorithm. <br/> 
+`cd demo` <br/> 
+`sh test_davis16_blackswan.sh` <br/> 
+You can replace the class name "blackswan" in "test_davis16_blackswan.sh" with other classes in the DAVIS 2016 validation set to obatin results for other classes. <br/>
 
 
 ## Tracker
