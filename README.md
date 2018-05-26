@@ -35,9 +35,10 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 `make pycaffe` <br />
 
 * Download trained models and pre-computed results. <br />
+Download [the DAVIS 2016 dataset](https://davischallenge.org/davis2016/code.html) and put it in folder "data" as "DAVIS2016". <br>
 Download [segmentation results](https://www.dropbox.com/s/9zwob31bz91u75h/favos.tar?dl=0) and put them in folder "results". <br />
 Download trained [ROISegNet model](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in folder "models". <br />
-Download [tracker parts](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in foler "siamese-fc-master/tracking/". <br />
+Download [tracked parts](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0) and put them in foler "siamese-fc-master/tracking/". <br />
 
 * Train your own ROISegNet. <br/>
 Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks) and save it in floder 'models' as 'init.caffemodel' <br/>
