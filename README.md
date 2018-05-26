@@ -53,8 +53,8 @@ You can replace the class name "blackswan" in "test_davis16_blackswan.sh" with o
 
 
 ## Tracker
-We use SiaFC tracker in "Fully-Convolutional Siamese Networks for Object Tracking" [here](https://github.com/bertinetto/siamese-fc)
-Please download parts and tracking results from [here](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0).
+We use SiaFC tracker in "Fully-Convolutional Siamese Networks for Object Tracking". [here](https://github.com/bertinetto/siamese-fc) <br/>
+Please download parts and tracking results from [here](https://www.dropbox.com/s/tkfa22j0ypq8ncq/ROISegNet_2016.caffemodel?dl=0). <br/>
 
 ## Download Our Segmentation Results on the DAVIS datasets
 * FAVOS on DAVIS2016 [here](https://www.dropbox.com/s/9zwob31bz91u75h/favos.tar?dl=0)
