@@ -80,6 +80,9 @@ def load_label(im_name):
 davis_dir = '../data/DAVIS2016/'
 file_out  = '../results-demo/res_part/'
 
+if not os.path.exists(file_out):
+    os.makedirs(file_out)
+
 model           = sys.argv[1]
 deploy_proto    = sys.argv[2]
 cls_name        = sys.argv[3]
