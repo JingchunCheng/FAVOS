@@ -37,7 +37,7 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 * matlab
 * A GPU with at least 12GB memory
 
-## Download trained models and pre-computed results. <br />
+## Download DAVIS 2016 dataset, trained models, and pre-computed results. <br />
 ```
 sh download_all.sh
 ```
@@ -45,6 +45,7 @@ sh download_all.sh
 ## Test our model. <br/>
 We provide an example testing script `test_davis16.sh`. <br/>
 ```
+# Please run download_all.sh first
 # Usage: sh test_davis16.sh <GPU-id> <sequence-name>
 
 sh test_davis16.sh 0 blackswan
