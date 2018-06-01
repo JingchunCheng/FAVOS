@@ -1,0 +1,10 @@
+data/DAVIS2016
+*.zip
+*.tar
+
+
+# python
+
+__pycache__/
+*.py[cod]
+*$py.class
