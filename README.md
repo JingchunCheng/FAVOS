@@ -54,7 +54,7 @@ You can replace the sequence name with others in the DAVIS 2016 validation set t
 
 
 ## Train your own ROISegNet. <br/>
-Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks) and save it in floder "models" as "init.caffemodel" <br/>
+Download [ResNet-101 model](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) and save it in floder "models" as "init.caffemodel" <br/>
 ```
 cd ROISegNet
 python solve.py ../models/init.caffemodel solver_davis16.prototxt 0
