@@ -1,10 +1,9 @@
 function combine_mask(class_name)
 
-DAVIS_dir = '/home/chengjc/DeepParticle-master/data/DAVIS2016/';
-%DAVIS_dir = '../data/DAVIS2016/';
+DAVIS_dir = '../data/DAVIS2016/';
 base_dir   = '../results/favos_baseline/';
-part_dir   = '../results/res_part/';
-res_dir    = '../results/res_favos/';
+part_dir   = '../results-demo/res_part/';
+res_dir    = '../results-demo/res_favos/';
 
 
 assert(exist(base_dir)>0, 'Please download baseline results "results/favos_baseline".');
@@ -129,7 +128,8 @@ for k = 1:length(images)
  
     res_img   = base_img*ratio + img_pick*(1-ratio);
 
-    imwrite(res_img,         [res_dir,class_name,'/',im_name,'.jpg']);
+    % soft output
+    % imwrite(res_img,         [res_dir,class_name,'/',im_name,'.jpg']);
     imwrite((res_img>0.5),   [res_dir,class_name,'/',im_name,'.png']);
 
      

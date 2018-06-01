@@ -78,8 +78,7 @@ def load_label(im_name):
 
 
 davis_dir = '../data/DAVIS2016/'
-davis_dir = '/home/chengjc/DeepParticle-master/data/DAVIS2016/'
-file_out  = '../results/res_part/'
+file_out  = '../results-demo/res_part/'
 
 model           = sys.argv[1]
 deploy_proto    = sys.argv[2]
@@ -94,6 +93,8 @@ img_path = '{}/JPEGImages/480p/{}'.format(davis_dir, cls_name)
 images    = os.listdir(img_path)
 images    = sorted(images)
 
+
+det_dir      = '../part-tracking/siamese-fc/DAVIS2016'
 det_name     = '{}/{}.mat.mat'.format(det_dir, cls_name)
 data         = io.loadmat(det_name)
 Dboxes       = data['boxes']

@@ -1,7 +1,11 @@
+results/favos*
+results-demo/*
 data/DAVIS2016
+part-tracking/siamese-fc/DAVIS2016
 *.zip
 *.tar
-
+*.caffemodel
+*.solverestate
 
 # python
 
