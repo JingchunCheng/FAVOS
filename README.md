@@ -48,8 +48,8 @@ Download [ResNet-101 model](https://github.com/KaimingHe/deep-residual-networks)
 * Test our model. <br/>
 We provide an example of testing script for our algorithm. <br/> 
 `cd demo` <br/> 
-`sh test_davis16_blackswan.sh` <br/> 
-You can replace the class name "blackswan" in "test_davis16_blackswan.sh" with other classes in the DAVIS 2016 validation set to obatin results for other classes. <br/>
+`sh test_davis16.sh` <br/> 
+You can replace the class name "blackswan" in "test_davis16.sh" with other classes in the DAVIS 2016 validation set to obatin results for other classes. <br/>
 
 
 ## Tracker
