@@ -43,7 +43,7 @@ sh download_all.sh
 ```
 
 ## Test our model. <br/>
-We provide an example testing script (demo). <br/>
+We provide an example testing script `test_davis16.sh`. <br/>
 ```
 # Usage: sh test_davis16.sh <GPU-id> <sequence-name>
 
