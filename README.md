@@ -49,7 +49,7 @@ We provide an example testing script `test_davis16.sh`. <br/>
 
 sh test_davis16.sh 0 blackswan
 ```
-The results would be saved in `results-demo/<sequence-name>`.
+The results would be saved in `results-demo/res_favos/<sequence-name>`.
 You can replace the sequence name with others in the DAVIS 2016 validation set to obatin results for other videos. <br/>
 
 
