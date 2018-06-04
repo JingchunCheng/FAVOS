@@ -3,7 +3,7 @@
 We are updating our code. Please do not clone this repo yet.
 
 
-# Fast and Accurate Online Video Object Segmentation via Tracking Parts
+# Fast and Accurate Online Video Object Segmentation via Tracking Parts (FAVOS)
 
 ![Alt Text](https://github.com/JingchunCheng/FAVOS/blob/master/figures/framework.png) 
 
@@ -17,7 +17,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
 This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset as described in the above paper. Please cite our paper if you find it useful for your research.
 
 ```
-@article{Hung_semiseg_2018,
+@article{Cheng_favos_2018,
   author = {J. Cheng and Y.-H. Tsai and W.-C. Hung and S. Wang and M.-H. Yang},
   journal = {?},
   title = {Fast and Accurate Online Video Object Segmentation via Tracking Parts},
@@ -37,7 +37,7 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 * matlab
 * A GPU with at least 12GB memory
 
-## Download DAVIS 2016 dataset, trained models, and pre-computed results. <br />
+## Download DAVIS 2016 dataset, trained models, tracked parts and pre-computed results. <br />
 ```
 sh download_all.sh
 ```
@@ -55,7 +55,7 @@ You can replace the sequence name with others in the DAVIS 2016 validation set t
 
 
 ## Train your own ROISegNet. <br/>
-Download [ResNet-101 model](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) and save it in floder "models" as "init.caffemodel" <br/>
+Download [ResNet-101 model](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777) and save it in the folder "models" as "init.caffemodel" <br/>
 ```
 cd ROISegNet
 python solve.py ../models/init.caffemodel solver_davis16.prototxt 0
@@ -63,7 +63,10 @@ python solve.py ../models/init.caffemodel solver_davis16.prototxt 0
 
 ## Tracker
 We use SiaFC tracker in "Fully-Convolutional Siamese Networks for Object Tracking". [link](https://github.com/bertinetto/siamese-fc) <br/>
-Please download the pre-computed parts and tracking results on DAVIS 2016 from [here](https://www.dropbox.com/s/pkqlzlhwun4qwuu/parts_DAVIS2016.tar?dl=0). <br/>
+Download the pre-computed parts and tracking results on DAVIS 2016 from [here](https://www.dropbox.com/s/pkqlzlhwun4qwuu/parts_DAVIS2016.tar?dl=0). <br/>
+<br/>
+
+Note that, we are currently working on a stable version to combine part tracking and ROISegNet for practical usage on any videos. We will update the code in a near future.
 
 ## Download Our Segmentation Results on the DAVIS datasets
 * FAVOS on DAVIS2016 [link](https://www.dropbox.com/s/9zwob31bz91u75h/favos.tar?dl=0)
