@@ -25,7 +25,7 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 }
 ```
 
-## FAVOS Results
+## FAVOS results
 [Segmentation Comparisons with Fast Online Methods](https://www.dropbox.com/s/l95ozepuohie7x4/DAVIS16_segmentation_comparison_methods_with_strong_applicability.avi?dl=0)
 
 [Example Video of Part Tracking](https://www.dropbox.com/s/3yszhdjz6klpmzr/Illustration_part_tracking.avi?dl=0)
@@ -37,7 +37,7 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 * matlab
 * A GPU with at least 12GB memory
 
-## Download DAVIS 2016 dataset, trained models, tracked parts and pre-computed results. <br />
+Download DAVIS 2016 dataset, trained models, tracked parts and pre-computed results. <br />
 ```
 sh download_all.sh
 ```
@@ -67,7 +67,7 @@ The pre-computed parts and tracking results on DAVIS 2016 can be downloaded [her
 
 Note that, we are currently working on a stable version to combine part tracking and ROISegNet for practical usage on any videos. We will update the code in a near future.
 
-## Download Our Segmentation Results on the DAVIS datasets
+## Download Our segmentation results on the DAVIS datasets
 * FAVOS on DAVIS2016 [link](https://www.dropbox.com/s/9zwob31bz91u75h/favos.tar?dl=0)
 * FAVOS on DAVIS2017 [link](https://www.dropbox.com/s/8gtcgf27qdhzyqu/favos_2017.tar?dl=0)
 
