@@ -1,8 +1,3 @@
-# Working in Progress
-
-We are updating our code. Please do not clone this repo yet.
-
-
 # Fast and Accurate Online Video Object Segmentation via Tracking Parts (FAVOS)
 
 ![Alt Text](https://github.com/JingchunCheng/FAVOS/blob/master/figures/framework.png) 
@@ -74,4 +69,6 @@ Note that, we are currently working on a stable version to combine part tracking
 
 ## Note
 The models and code are available for non-commercial research purposes only.
+
+06/2018: demo code released
 
