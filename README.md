@@ -14,7 +14,7 @@ This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset a
 ```
 @article{Cheng_favos_2018,
   author = {J. Cheng and Y.-H. Tsai and W.-C. Hung and S. Wang and M.-H. Yang},
-  journal = {?},
+  journal = {arXiv preprint arXiv:1806.02323},
   title = {Fast and Accurate Online Video Object Segmentation via Tracking Parts},
   year = {2018}
 }
