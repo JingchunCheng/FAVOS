@@ -6,7 +6,7 @@ Contact: Jingchun Cheng (chengjingchun14 at 163 dot com)
 
 ## Paper
 [Fast and Accurate Online Video Object Segmentation via Tracking Parts]() <br />
-Jingchun Cheng, Yi-Hsuan Tsai, Wei-Chih Hung, Shengjin Wang and Ming-Hsuan Yang <br />
+[Jingchun Cheng](https://sites.google.com/view/jingchun-cheng), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), [Wei-Chih Hung](https://hfslyc.github.io/), [Shengjin Wang](http://www.tsinghua.edu.cn/publish/eeen/3784/2010/20101219115601212198627/20101219115601212198627_.html) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
 
 This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset as described in the above paper. Please cite our paper if you find it useful for your research.
