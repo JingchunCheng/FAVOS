@@ -12,9 +12,9 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018 (Spotlig
 This is the authors' demo (single-GPU-version) code for the DAVIS 2016 dataset as described in the above paper. Please cite our paper if you find it useful for your research.
 
 ```
-@article{Cheng_favos_2018,
+@inproceedings{Cheng_favos_2018,
   author = {J. Cheng and Y.-H. Tsai and W.-C. Hung and S. Wang and M.-H. Yang},
-  journal = {arXiv preprint arXiv:1806.02323},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   title = {Fast and Accurate Online Video Object Segmentation via Tracking Parts},
   year = {2018}
 }
